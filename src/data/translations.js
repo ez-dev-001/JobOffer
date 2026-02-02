@@ -59,61 +59,61 @@ export const TRANSLATIONS = {
         },
         footer: { rights: 'Всі права захищені.' },
     },
-    PL: {
-        nav: { contact: 'Kontakt', btn: 'Telegram' },
+    RU: {
+        nav: { contact: 'Связаться', btn: 'Telegram' },
         hero: {
-            badge: 'GORĄCA OFERTA',
-            title: 'Twoja praca w Polsce',
+            badge: 'ГОРЯЧАЯ ВАКАНСИЯ',
+            title: 'Твоя работа в Польше',
             subtitle:
-                'Dla młodzieży 15–21 lat. Kraków, Lublin, Rzeszów. Tygodniowe wypłaty i nowi znajomi.',
-            cta: 'Napisz do menedżera',
+                'Для молодежи 15–21 год. Краков, Люблин, Жешув. Еженедельная оплата и новые друзья.',
+            cta: 'Написать менеджеру',
         },
         essence: {
-            title: 'O co chodzi?',
+            title: 'В чем суть?',
             subtitle:
-                'Jesteśmy agencją reklamową. Twoim zadaniem jest rozmowa z ludźmi, promowanie marek i dbanie o dobry nastrój.',
+                'Мы — рекламное агентство. Твоя задача — общаться с людьми, рассказывать о брендах и дарить настроение.',
             cards: [
-                { title: 'Ekipa', text: 'Pracujemy w parach. Zero nudy w biurze.' },
+                { title: 'Тусовка', text: 'Работаем в парах. Никакой скуки в офисе.' },
                 {
-                    title: 'Komunikacja',
-                    text: 'Rozwijaj soft skills rozmawiając z ludźmi.',
+                    title: 'Общение',
+                    text: 'Развивай soft skills, общаясь с людьми.',
                 },
-                { title: 'Pieniądze', text: 'Otrzymuj bonusy za wyniki co tydzień.' },
+                { title: 'Деньги', text: 'Получай бонусы за результат каждую неделю.' },
             ],
         },
         benefits: {
-            title: 'Dlaczego to polubisz',
+            title: 'Почему тебе это зайдет',
             cards: [
-                { title: 'Niezależność', text: 'Zarabiaj na swoje marzenia sam.' },
+                { title: 'Финансовая свобода', text: 'Не проси у родителей. Зарабатывай на мечты сам.' },
                 {
-                    title: 'Praktyka języka',
-                    text: 'Najlepszy sposób na naukę polskiego to rozmowa na żywo.',
+                    title: 'Языковая практика',
+                    text: 'Лучший способ выучить польский — живое общение.',
                 },
                 {
-                    title: 'Nowi znajomi',
-                    text: 'Ukraińska młodzież w Twoim mieście. Wspólne imprezy.',
+                    title: 'Новые друзья',
+                    text: 'Украинская молодежь твоего города. Совместные вечеринки.',
                 },
                 {
-                    title: 'Elastyczność',
-                    text: 'Idealne dla uczniów. Dopasujemy grafik do Ciebie.',
+                    title: 'Гибкость',
+                    text: 'Идеально для студентов. График подстроим под тебя.',
                 },
             ],
         },
         locations: {
-            title: 'Lokalizacje',
+            title: 'Локации',
             list: [
-                { city: 'Kraków', desc: 'Centrum i okolice', query: 'Krakow' },
-                { city: 'Lublin', desc: 'Całe miasto', query: 'Lublin' },
-                { city: 'Rzeszów', desc: 'Województwo podkarpackie', query: 'Rzeszow' },
-                { city: 'Bielsko-Biała', desc: 'Rybnik, Żywiec, Pszczyna', query: 'Bielsko-Biala' },
+                { city: 'Краков', desc: 'Центр и районы', query: 'Krakow' },
+                { city: 'Люблин', desc: 'Весь город', query: 'Lublin' },
+                { city: 'Жешув', desc: 'Подкарпатское воеводство', query: 'Rzeszow' },
+                { city: 'Бельско-Бяла', desc: 'Рыбник, Живец, Пщина', query: 'Bielsko-Biala' },
             ],
         },
         cta: {
-            title: 'Gotowy do działania?',
+            title: 'Готов к движу?',
             subtitle:
-                'Doświadczenie nie jest ważne. Nauczymy, pokażemy, pomożemy. Liczą się chęci!',
-            button: 'Dołącz do zespołu',
+                'Опыт не важен. Научим, покажем, поможем. Главное — твое желание!',
+            button: 'Хочу в команду',
         },
-        footer: { rights: 'Wszelkie prawa zastrzeżone.' },
+        footer: { rights: 'Все права защищены.' },
     },
 };
