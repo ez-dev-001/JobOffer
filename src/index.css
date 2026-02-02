@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Додаткові глобальні стилі */
 html {
   scroll-behavior: smooth;
 }
 
 body {
   @apply antialiased text-gray-900 bg-white;
-}
-
-::selection {
-  @apply bg-red-100 text-red-900;
 }
