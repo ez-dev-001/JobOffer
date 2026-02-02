@@ -35,18 +35,12 @@ export const Footer = ({ t }) => (
         JOB<span className="text-red-600">POLAND</span>
       </div>
       <div className="flex justify-center gap-6 text-gray-400 text-sm mb-8">
-        <a href="#" className="hover:text-white transition-colors">
-          Instagram
-        </a>
-        <a href="#" className="hover:text-white transition-colors">
+        <a href="https://t.me/vlad_ivanch" className="hover:text-white transition-colors">
           Telegram
-        </a>
-        <a href="#" className="hover:text-white transition-colors">
-          TikTok
         </a>
       </div>
       <p className="text-gray-600 text-xs">
-        &copy; 2024 JobPoland. {t.footer.rights}
+        &copy; 2026 JobPoland. {t.footer.rights}
       </p>
     </div>
   </footer>
