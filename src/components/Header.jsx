@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { MessageCircle } from 'lucide-react';
 
 const Header = ({ lang, setLang, isScrolled, trackLead, t }) => {
+    // lang приходит как 'UA' или 'RU'
+
     return (
         <nav
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -31,13 +33,14 @@ const Header = ({ lang, setLang, isScrolled, trackLead, t }) => {
                                 : 'bg-white/20 backdrop-blur-md border-white/30'
                         }`}
                     >
-                        {/* The Sliding Pill */}
+                        {/* Ползунок анимации */}
                         <div
                             className={`absolute top-1 bottom-1 w-[34px] bg-red-600 rounded-full shadow-sm transition-transform duration-300 ease-out ${
                                 lang === 'RU' ? 'translate-x-[38px]' : 'translate-x-0'
                             }`}
                         ></div>
 
+                        {/* Кнопка UA */}
                         <button
                             onClick={() => setLang('UA')}
                             className={`relative z-10 w-1/2 text-[10px] font-bold transition-colors ${
@@ -50,6 +53,8 @@ const Header = ({ lang, setLang, isScrolled, trackLead, t }) => {
                         >
                             UA
                         </button>
+
+                        {/* Кнопка RU */}
                         <button
                             onClick={() => setLang('RU')}
                             className={`relative z-10 w-1/2 text-[10px] font-bold transition-colors ${

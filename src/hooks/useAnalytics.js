@@ -1,21 +1,24 @@
+import { logEvent } from '../utils/analytics';
+
 export const useAnalytics = () => {
-  // ЗАМІНИТИ НА ВАШ ЛІНК
-  const TELEGRAM_LINK = 'https://t.me/vlad_ivanch';
+    const TELEGRAM_LINK = 'https://t.me/vlad_ivanch';
 
-  const trackLead = () => {
-    console.log('[Analytics] Lead Captured');
+    const trackLead = () => {
+        console.log('[Analytics] Lead Captured');
 
-    if (window.fbq) {
-      window.fbq('track', 'Lead');
-      window.fbq('track', 'Contact');
-    }
+        // Відправляємо подію в усі підключені системи
+        logEvent('generate_lead', {
+            event_category: 'Contact',
+            event_label: 'Telegram Button',
+            value: 1
+        });
 
-    if (window.ttq) {
-      window.ttq.track('ClickButton');
-    }
+        if (window.ttq) {
+            window.ttq.track('ClickButton');
+        }
 
-    window.open(TELEGRAM_LINK, '_blank');
-  };
+        window.open(TELEGRAM_LINK, '_blank');
+    };
 
-  return { trackLead };
+    return { trackLead };
 };
